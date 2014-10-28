@@ -1,7 +1,6 @@
 body{
 
 	font-family: 'Varela Round', sans-serif;
-	background-image: url("redbg.jpg");
 }
 
 .justify{
@@ -21,4 +20,17 @@ li{
 }
 .whitetext{
 	color:white;
+}
+.paragraph{
+	font-family: 'Varela,' sans-serif;
+}
+.navbar{
+	vertical-align: middle;
+	font-size: 24px;
+}
+.floatleft{
+	float:left;
+}
+.floatright{
+	float:right;
 }
