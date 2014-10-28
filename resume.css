@@ -1,2 +1,24 @@
+body{
+
+	font-family: 'Varela Round', sans-serif;
+	background-image: url("redbg.jpg");
+}
+
 .justify{
 	text-align: center;
+}
+li{
+	display:inline-block;
+	font-family: 'Varela Round', sans-serif;
+	padding:40px;
+	letter-spacing:5px;
+}
+.logo{
+	font-family: 'Varela,' sans-serif;
+	letter-spacing: 5px;
+	padding:40px;
+
+}
+.whitetext{
+	color:white;
+}
