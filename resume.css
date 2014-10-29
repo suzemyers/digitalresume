@@ -27,6 +27,7 @@ li{
 	vertical-align: middle;
 	font-size: 24px;
 	padding:50px;
+	color: #FF0000;
 }
 .floatleft{
 	float:left;
@@ -41,7 +42,7 @@ a:link {
 
 a:visited {
     text-decoration: none;
-    color: #000000;
+    color: #FF0000;
    
 }
 
@@ -53,4 +54,7 @@ a:hover {
 a:active {
     text-decoration: underline;
    
+}
+.mainpic{
+	vertical-align: middle;
 }
