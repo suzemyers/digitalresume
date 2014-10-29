@@ -19,11 +19,14 @@ li{
 
 }
 .paragraph{
-	font-family: 'Varela,' sans-serif;
+	padding:100px 200px 100px 200px; 
+	font-family: 'Droid Serif', serif;
+	color: #FF0000;
 }
 .navbar{
 	vertical-align: middle;
 	font-size: 24px;
+	padding:50px;
 }
 .floatleft{
 	float:left;
