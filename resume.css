@@ -1,6 +1,7 @@
 body{
 
 	font-family: 'Varela Round', sans-serif;
+	height:1000px;
 }
 
 .justify{
@@ -58,3 +59,34 @@ a:active {
 .mainpic{
 	vertical-align: middle;
 }
+.fixed{
+	position:fixed;
+}
+
+#images{
+	width: 500px;
+	height: 500px;
+	overflow: hidden;
+	position: relative;
+	margin:20px auto;
+}
+
+#images img{
+	width: 500px;
+	height: 500px;
+	position:absolute;
+	top:0;
+	left:-400px;
+}
+#images img:first-child{
+	left:0;
+}
+#images img{
+	z-index: 1;
+	opacity:0;
+	transition: all linear 1s;
+	-o-transition: all linear 1s;
+	-moz-transition: all linear 1s;
+	-webkit-transition: all linear 1s;
+}
+
